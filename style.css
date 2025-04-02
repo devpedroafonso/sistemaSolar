@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --marrom: #8e5915;
+    --preto: #1a141a;
+    --cinza: #423738;
+    --bege: #d3af85;
+    --amarelo: #f4b315;
+    --laranja: #e59312;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main img{
+width: 7rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var( --amarelo);
+}
+.input input{
+    display: flex;
+    gap: 2rem;
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    background-color: #ebeaeb;
+    color: var(--cinza);
+    padding-left: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+
+}
+
+button{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border-color: transparent;
+    background-color: var(--marrom);
+    font-size: 1.1rem;
+    color: var(--amarelo);
+}
+
+.main h6{
+    font-size: 0.85rem;
+    color: var( --amarelo);
+}
